@@ -75,7 +75,7 @@ function pcn_stock_sync_updatebutton() {
     ?>
     <script type="text/javascript">
         jQuery(function ($) {
-            var newButton = $("<div style='width: 100%; border-top: 1px solid #eeeeee; padding: 10px;'><a data-id='<?php echo get_the_ID(); ?>' id='pcn-stocksync-button' class='button button-primary button-large'><?php echo __('Get stock quantity from PakkecenterNord', 'coolrunner-pcn-stocksync'); ?></a></div>");
+            var newButton = $("<div style='width: 100%; border-top: 1px solid #eeeeee; padding: 10px;'><a data-id='<?php echo get_the_ID(); ?>' id='pcn-stocksync-button' class='button button-primary button-large'><?php echo __('Get stock quantity from PakkecenterNord', 'homerunner-pcn-stocksync'); ?></a></div>");
             jQuery('.stock_fields').append(newButton)
         });
 
@@ -93,7 +93,7 @@ function pcn_stock_sync_updatebutton() {
                         jQuery('#_stock').val(response);
                     } else {
                         if(response === 'notFound') {
-                            alert('<?php echo __('SKU does not exist at PakkecenterNord', 'coolrunner-pcn-stocksync'); ?>>');
+                            alert('<?php echo __('SKU does not exist at PakkecenterNord', 'homerunner-pcn-stocksync'); ?>>');
                         } else {
                             alert('<?php echo __('Quantity is already correct', 'pcn-stocksync') ?>');
                         }
@@ -111,7 +111,7 @@ function pcn_stock_sync_updatebutton() {
 // Add bulk action to update stock
 add_filter( 'bulk_actions-edit-product', 'pcn_stock_sync_addbulkaction', 20, 1 );
 function pcn_stock_sync_addbulkaction( $actions ) {
-    $actions['update_all_stockquantity'] = __( __('PCN - Update stock quantity', 'coolrunner-pcn-stocksync') );
+    $actions['update_all_stockquantity'] = __( __('PCN - Update stock quantity', 'homerunner-pcn-stocksync') );
     return $actions;
 }
 
@@ -195,7 +195,7 @@ add_filter('cron_schedules', 'pcn_stocksync_cron_intervals');
 function pcn_stocksync_cron_intervals($schedules) {
     $schedules['every3hours'] = array(
         'interval' => 10800, // 10800 seconds = 3 hours
-        'display' => __('Every 3 hours', 'coolrunner-pcn-stocksync')
+        'display' => __('Every 3 hours', 'homerunner-pcn-stocksync')
     );
 
     return $schedules;
