@@ -34,7 +34,7 @@ Download the folder "coolrunner-pcn-stocksync" and inside your Wordpress solutio
 
 **> Installing using pre-packaged version**
 
-Use the pre-packaged version: [coolrunner_pcn_stocksync.zip](http://github.com/CoolRunner-dk/woocommerce-pcn-stocksync/raw/master/coolrunner-pcn-stocksync.zip)
+Use the pre-packaged version: [coolrunner_pcn_stocksync.zip](https://github.com/Homerunner-com/woocommerce-pcn-stocksync/raw/main/woocommerce-pcn-stocksync.zip)
 
 Go to your Wordpress website (with woocommerce enabled) and go to "Plugins -> Add New -> Upload Plugin" and select the zip-archive you've packaged or downloaded containing the plugin.
 
