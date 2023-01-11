@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HomeRunner: PCN StockSync\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-11 08:22+0000\n"
+"PO-Revision-Date: 2020-08-11 08:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dansk\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.3.4"
+
+#: woocommerce_pcn_stocksync.php:43
+msgid "PCN StockSync requires that WooCommerce is installed."
+msgstr "PCN StockSync kræver, at WooCommerce er installeret."
+
+#: woocommerce_pcn_stocksync.php:44
+msgid "You can download WooCommerce here: "
+msgstr "Du kan download WooCommerce her: "
+
+#: includes/functions.php:78
+msgid "Get stock quantity from PakkecenterNord"
+msgstr "Hent lagerantal fra PakkecenterNord"
+
+#: includes/functions.php:96
+msgid "SKU does not exist at PakkecenterNord"
+msgstr "Varenummeret findes ikke ved PakkecenterNor"
+
+#: includes/functions.php:170
+msgid "Every 3 hours"
+msgstr "Hver 3. time"
+
+#: includes/admin/class-pcnstocksync-settings.php:15
+#: includes/admin/class-pcnstocksync-settings.php:29
+msgid "PCN StockSync - Settings"
+msgstr "PCN StockSync - Indstillinger"
+
+#: includes/admin/class-pcnstocksync-settings.php:39
+msgid "Fill your PCN API Endpoint (https://xx.xx.dk/rest/v6/api.php)"
+msgstr "Udfyld dit PCN API Endpoint (eks: https://xx.xx.dk/rest/v6/api.php)"
+
+#: includes/admin/class-pcnstocksync-settings.php:42
+msgid "PCN Base-Auth Username"
+msgstr "PCN Base-Auth Brugernavn"
+
+#: includes/admin/class-pcnstocksync-settings.php:46
+msgid "Fill your PCN Base-Auth username"
+msgstr "Udfyld dit PCN Base-Auth brugernavn"
+
+#: includes/admin/class-pcnstocksync-settings.php:49
+msgid "PCN Base-Auth Password"
+msgstr "PCN Base-Auth Kodeord"
+
+#: includes/admin/class-pcnstocksync-settings.php:53
+msgid "Fill your PCN Base-Auth password (ex: xx1000)"
+msgstr "Udfyld dit PCN Base-Auth kodeord (eks: xx1000)"
+
+#: includes/admin/class-pcnstocksync-settings.php:56
+msgid "PCN OLS Customer ID"
+msgstr "PCN OLS Kunde ID"
+
+#: includes/admin/class-pcnstocksync-settings.php:60
+msgid "Fill your PCN OLS Customer ID (ex: 88)"
+msgstr "Udfyld dit PCN OLS Kunde ID (eks: 88)"
+
+#: includes/admin/class-pcnstocksync-settings.php:63
+msgid "PCN OLS Customer Username"
+msgstr "PCN OLS Kunde Brugernavn"
+
+#: includes/admin/class-pcnstocksync-settings.php:67
+msgid "Fill your PCN OLS Customer Username (ex: xx10)"
+msgstr "Udfyld dit PCN OLS Kunde Brugernavn (eks: xx10)"
+
+#: includes/admin/class-pcnstocksync-settings.php:70
+msgid "PCN OLS Customer Password"
+msgstr "PCN OLS Kunde Kodeord"
+
+#: includes/admin/class-pcnstocksync-settings.php:74
+msgid "Fill your PCN OLS Customer Password (ex: x1000)"
+msgstr "Udfyld dit PCN OLS Kunde Kodeord (eks: x1000)"
+
+#: includes/admin/class-pcnstocksync-settings.php:77
+msgid "Get stock quantity at new order placed?"
+msgstr "Hent lagerantal når en ny ordre oprettes?"
+
+#: includes/admin/class-pcnstocksync-settings.php:81
+msgid "Get stock quantity when ever a new order is placed"
+msgstr "Henter lagerantal når en ny ordre gemmes"
+
+#. Name of the plugin
+msgid "HomeRunner: PCN StockSync"
+msgstr "HomeRunner: PCN StockSync"
+
+#. Description of the plugin
+msgid "Lagersynkronisering af WooCommerce imod PakkecenterNord"
+msgstr "Lagersynkronisering af WooCommerce imod PakkecenterNord"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://homerunner.com"
+msgstr "http://homerunnner.com"
+
+#. Author of the plugin
+msgid "HomeRunner"
+msgstr "HomeRunner"
